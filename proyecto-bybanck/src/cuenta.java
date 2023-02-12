@@ -3,7 +3,7 @@ class cuenta {
   double saldo;
   int agencia;
   int numero;
-  String titulo;
+  objetoCliente titular;
 
   public void depositar(double valor) {
     this.saldo += valor;
@@ -22,7 +22,7 @@ class cuenta {
   }
 
   public boolean transferir(double valor, cuenta destino) {
-    if (this.saldo >= valor){
+    if (this.saldo >= valor) {
       this.saldo -= valor;
       // destino.saldo += valor;
       destino.depositar(valor);
