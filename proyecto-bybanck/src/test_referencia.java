@@ -11,10 +11,10 @@ public class test_referencia {
 
     System.out.println(segundaCuenta.saldo);
 
-    segundaCuenta.saldo += 400;  
-    System.out.println(primeraCuenta);  //Estamos referenciando a la misma posición de memoria
+    segundaCuenta.saldo += 400;
+    System.out.println(primeraCuenta); // Estamos referenciando a la misma posición de memoria
     System.out.println(segundaCuenta);
-    
+
     if (primeraCuenta == segundaCuenta) {
       System.out.println("Son la misma cuenta");
     } else {

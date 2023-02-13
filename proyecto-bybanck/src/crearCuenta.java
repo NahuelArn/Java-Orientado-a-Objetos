@@ -4,7 +4,7 @@ public class crearCuenta {
     primeraCuenta.agencia = 123;
 
     System.out.println(primeraCuenta.agencia);
-    //----------------------------------------------
+    // ----------------------------------------------
     cuenta segundaCuenta = new cuenta();
     segundaCuenta.saldo = 1000;
 

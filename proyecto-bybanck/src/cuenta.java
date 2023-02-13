@@ -61,6 +61,10 @@ class cuenta {
     return agenciaPrivate;
   }
 
+  public void setTitular(objetoCliente titular) {
+    this.titular = titular;
+  }
+  
   // depositar
   public void depositarPrivado(double valor) {
     this.saldoPrivado += valor;
