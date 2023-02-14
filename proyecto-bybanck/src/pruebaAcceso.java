@@ -1,5 +1,3 @@
-import javax.net.ssl.SSLContext;
-
 public class pruebaAcceso {
   public static void main(String[] args) {
     cuenta cuentaPrueba = new cuenta();

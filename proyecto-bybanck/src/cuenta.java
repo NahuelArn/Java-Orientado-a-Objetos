@@ -5,8 +5,8 @@ class cuenta {
   int agencia;
   private int agenciaPrivate;
   int numero;
-  private double numeroPrivate;
-  objetoCliente titular = new objetoCliente();
+  // private double numeroPrivate;
+  private objetoCliente titular ;
 
   public double getObtenerSaldoPublic() {
     return this.saldo;
@@ -46,6 +46,12 @@ class cuenta {
 
   // ------------------------------------------------
   // PRIVADO
+  public void setTitular(objetoCliente titular) {
+    this.titular = titular;
+  }
+  public objetoCliente getTitular() {
+    return titular;
+  }
 
   public double getObtenerSaldoPrivate() {
     return this.saldoPrivado;
@@ -61,10 +67,6 @@ class cuenta {
     return agenciaPrivate;
   }
 
-  public void setTitular(objetoCliente titular) {
-    this.titular = titular;
-  }
-  
   // depositar
   public void depositarPrivado(double valor) {
     this.saldoPrivado += valor;
