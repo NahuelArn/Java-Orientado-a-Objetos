@@ -1,6 +1,6 @@
 public class test_referencia {
   public static void main(String[] args) {
-    cuenta primeraCuenta = new cuenta();
+    cuenta primeraCuenta = new cuenta(2);
     primeraCuenta.saldo = 200;
 
     cuenta segundaCuenta = primeraCuenta;

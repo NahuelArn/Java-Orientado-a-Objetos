@@ -1,6 +1,6 @@
 public class pruebaEncapsulamiento {
   public static void main(String[] args) {
-    cuenta cuentaPrueba = new cuenta();
+    cuenta cuentaPrueba = new cuenta(3);
     objetoCliente titular = new objetoCliente();
     // objetoCliente clientePrueba = new objetoCliente();
     // objetoCliente titularr = new objetoCliente();

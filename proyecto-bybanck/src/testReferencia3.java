@@ -4,7 +4,7 @@ public class testReferencia3 {
   // cada vez que se cree un objeto de tipo cuenta, se va crear un objeto de tipo
   // objetoCliente
   public static void main(String[] args) { // Abreviatura main y TAB
-    cuenta cuentaDiego = new cuenta();
+    cuenta cuentaDiego = new cuenta(4);
     objetoCliente cliente = new objetoCliente();
     cuentaDiego.setTitular(cliente);
     System.out.println(cuentaDiego.getTitular());

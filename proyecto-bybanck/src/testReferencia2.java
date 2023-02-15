@@ -8,7 +8,7 @@ public class testReferencia2 {
     diego.setTelefono(123);
     // diego.telefono = 123;
 
-    cuenta cuentaDiego = new cuenta();
+    cuenta cuentaDiego = new cuenta(2);
     cuentaDiego.agencia = 1;
     cuentaDiego.setTitular(diego);
     // cuentaDiego.titular = diego;
