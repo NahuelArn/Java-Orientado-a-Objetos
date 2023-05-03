@@ -1,6 +1,6 @@
 public class prueba_metodos {
   public static void main(String[] args){
-    cuenta miCuenta = new cuenta();
+    cuenta miCuenta = new cuenta(1);
     //DEPOSITAR
     // miCuenta.saldo = 900;
     miCuenta.depositar(1000);
@@ -12,7 +12,7 @@ public class prueba_metodos {
     System.out.println(miCuenta.saldo);
 
     //transferir
-    cuenta cuentaTransferir = new cuenta();
+    cuenta cuentaTransferir = new cuenta(2);
     cuentaTransferir.depositar(1100);
     cuentaTransferir.transferir(500, miCuenta); // 500 de cuentaTransferir a micuenta
 

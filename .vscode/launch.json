@@ -1,0 +1,168 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Ejemplo_Caracteres",
+      "request": "launch",
+      "mainClass": "Ejemplo_Caracteres",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "Ejemplo_Condicionales",
+      "request": "launch",
+      "mainClass": "Ejemplo_Condicionales",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "Ejemplo_Condicionales2",
+      "request": "launch",
+      "mainClass": "Ejemplo_Condicionales2",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "Ejemplo_Scope",
+      "request": "launch",
+      "mainClass": "Ejemplo_Scope",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "Ejemplo_ciclos",
+      "request": "launch",
+      "mainClass": "Ejemplo_ciclos",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "Ejemplo_ciclos2",
+      "request": "launch",
+      "mainClass": "Ejemplo_ciclos2",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "Ejemplo_valors_variables",
+      "request": "launch",
+      "mainClass": "Ejemplo_valors_variables",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "Ejercicio_matriz",
+      "request": "launch",
+      "mainClass": "Ejercicio_matriz",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Factorial",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "MultiplosDe3",
+      "request": "launch",
+      "mainClass": "MultiplosDe3",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "TipoVariable",
+      "request": "launch",
+      "mainClass": "TipoVariable",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "ejercicioTablaMultiplicar",
+      "request": "launch",
+      "mainClass": "ejercicioTablaMultiplicar",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "primer_paso",
+      "request": "launch",
+      "mainClass": "primer_paso",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "tasa_con_ifs",
+      "request": "launch",
+      "mainClass": "tasa_con_ifs",
+      "projectName": "Primeros-pasos-Java-eclipse"
+    },
+    {
+      "type": "java",
+      "name": "crearCuenta",
+      "request": "launch",
+      "mainClass": "crearCuenta",
+      "projectName": "proyecto-bybanck"
+    },
+    {
+      "type": "java",
+      "name": "pruebaAcceso",
+      "request": "launch",
+      "mainClass": "pruebaAcceso",
+      "projectName": "proyecto-bybanck"
+    },
+    {
+      "type": "java",
+      "name": "pruebaConstructor",
+      "request": "launch",
+      "mainClass": "pruebaConstructor",
+      "projectName": "proyecto-bybanck"
+    },
+    {
+      "type": "java",
+      "name": "pruebaEncapsulamiento",
+      "request": "launch",
+      "mainClass": "pruebaEncapsulamiento",
+      "projectName": "proyecto-bybanck"
+    },
+    {
+      "type": "java",
+      "name": "prueba_metodos",
+      "request": "launch",
+      "mainClass": "prueba_metodos",
+      "projectName": "proyecto-bybanck"
+    },
+    {
+      "type": "java",
+      "name": "testReferencia2",
+      "request": "launch",
+      "mainClass": "testReferencia2",
+      "projectName": "proyecto-bybanck"
+    },
+    {
+      "type": "java",
+      "name": "testReferencia3",
+      "request": "launch",
+      "mainClass": "testReferencia3",
+      "projectName": "proyecto-bybanck"
+    },
+    {
+      "type": "java",
+      "name": "test_referencia",
+      "request": "launch",
+      "mainClass": "test_referencia",
+      "projectName": "proyecto-bybanck"
+    }
+  ]
+}

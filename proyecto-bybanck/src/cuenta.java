@@ -5,8 +5,28 @@ class cuenta {
   int agencia;
   private int agenciaPrivate;
   int numero;
-  private double numeroPrivate;
-  objetoCliente titular = new objetoCliente();
+  // private double numeroPrivate;
+  private objetoCliente titular;
+
+  private static int total = 0;
+  /*
+   * public cuenta (){
+   * }
+   */
+
+  public cuenta(int agenciaPrivate) {
+    if (agenciaPrivate <= 0) {
+      System.out.println("No se puede crear una cuenta con un valor negativo");
+      this.agenciaPrivate = 1;
+    } else {
+      this.agenciaPrivate = agenciaPrivate;
+    }
+    total++;
+    System.out.println("se van creando: " + total + " cuentas");
+    System.out.println("Se creo una cuenta, me permite manipular el objeto desde su nacimiento");
+  }
+
+  // ------------------------------------------------
 
   public double getObtenerSaldoPublic() {
     return this.saldo;
@@ -46,6 +66,13 @@ class cuenta {
 
   // ------------------------------------------------
   // PRIVADO
+  public void setTitular(objetoCliente titular) {
+    this.titular = titular;
+  }
+
+  public objetoCliente getTitular() {
+    return titular;
+  }
 
   public double getObtenerSaldoPrivate() {
     return this.saldoPrivado;
@@ -55,16 +82,13 @@ class cuenta {
     if (agenciaPrivate > 0) {
       this.agenciaPrivate = agenciaPrivate;
     }
+    System.out.println("No se puede asignar un valor negativo");
   }
 
-  public int getAgencia() {
+  public int getAgenciaPrivate() {
     return agenciaPrivate;
   }
 
-  public void setTitular(objetoCliente titular) {
-    this.titular = titular;
-  }
-  
   // depositar
   public void depositarPrivado(double valor) {
     this.saldoPrivado += valor;
