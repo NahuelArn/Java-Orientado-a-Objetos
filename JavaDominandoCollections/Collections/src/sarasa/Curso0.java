@@ -2,17 +2,17 @@ package sarasa;
 
 import java.util.ArrayList;
 
-public class Curso implements Comparable<Curso> {
+public class Curso0 implements Comparable<Curso0> {
     //atributos
     private String nombre;
     private int tiempo;
     //constructor
-    public Curso(String nombre, int tiempo) {
+    public Curso0(String nombre, int tiempo) {
         this.nombre = nombre;
         this.tiempo = tiempo;
     }
 
-    public Curso(String ruby, int tiempo, ArrayList<Object> objects) {
+    public Curso0(String ruby, int tiempo, ArrayList<Object> objects) {
     }
 
     //getters and setters
@@ -37,7 +37,7 @@ public class Curso implements Comparable<Curso> {
         return this.nombre;
     }
     @Override
-    public int compareTo(Curso o) {
+    public int compareTo(Curso0 o) {
         return this.nombre.compareTo(o.getNombre());
     }
 }

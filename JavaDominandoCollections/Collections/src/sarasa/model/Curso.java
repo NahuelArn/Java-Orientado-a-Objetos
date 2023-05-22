@@ -1,21 +1,26 @@
-package sarasa;
+package sarasa.model;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class Curso implements Comparable<Curso> {
+public class Curso{
     //atributos
     private String nombre;
     private int tiempo;
+    private List<Clase> claseList = new ArrayList<>();
     //constructor
     public Curso(String nombre, int tiempo) {
         this.nombre = nombre;
         this.tiempo = tiempo;
     }
-
-    public Curso(String ruby, int tiempo, ArrayList<Object> objects) {
+    public Curso(String nombre, int tiempo, List<Clase> claseList) {
+        this.nombre = nombre;
+        this.tiempo = tiempo;
+        this.claseList = claseList;
     }
 
     //getters and setters
+
     public String getNombre() {
         return nombre;
     }
@@ -32,13 +37,20 @@ public class Curso implements Comparable<Curso> {
         this.tiempo = tiempo;
     }
 
+    public List<Clase> getClaseList() {
+        return claseList;
+    }
+
+    public void setClaseList(List<Clase> claseList) {
+        this.claseList = claseList;
+    }
+
+    public void addClase(Clase clase){
+        this.claseList.add(clase);
+    }
     @Override
     public String toString() {
         return this.nombre;
-    }
-    @Override
-    public int compareTo(Curso o) {
-        return this.nombre.compareTo(o.getNombre());
     }
 }
 
