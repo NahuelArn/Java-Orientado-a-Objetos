@@ -1,11 +1,11 @@
 package sarasa.model;
 
-public class Clase {
+public class Aula {
     //atributos
     private String nombre;
 
     //constructor
-    public Clase(String nombre) {
+    public Aula(String nombre) {
         this.nombre = nombre;
     }
 
